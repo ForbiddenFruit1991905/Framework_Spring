@@ -10,7 +10,7 @@ public class AppConf {
 
     @Bean
     @Qualifier("studentRepo") // Добавила аннотацию @Qualifier с уникальным именем бина
-    StudentRepository studentRepo(){
+    public StudentRepository studentRepo(){
         return new StudentRepository();
     }
 }
