@@ -1,7 +1,6 @@
 package ru.example.task2.controller;
 
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -25,13 +24,13 @@ public class StudentController {
     }
 
     @GetMapping("/student/{id}")
-    public Student getStudentById(@PathVariable Long id) {
+    public Student getStudentById(@PathVariable int id) {
         return repository.getById(id);
     }
 
     @GetMapping("/student")
-    public ResponseEntity<List<Student>> getAllStudents() {
-        return (ResponseEntity<List<Student>>) repository.getAll();
+    public List<Student> getAllStudents() {
+        return repository.getAll();
     }
 
     @GetMapping("/student/search")
@@ -46,7 +45,7 @@ public class StudentController {
     }
 
     @DeleteMapping("/student/{id}")
-    public ResponseEntity<Void> deleteStudent(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteStudent(@PathVariable int id) {
         if (repository.deleteById(id) == repository.getById(id)) {
             repository.deleteById(id);
             return ResponseEntity.ok().build(); // Возвращаем HTTP статус 200 OK при успешном удалении
@@ -56,7 +55,7 @@ public class StudentController {
     }
 
     @PatchMapping("/{id}")
-    public Student updateStudent(@PathVariable long id, @RequestBody Student student){
+    public Student updateStudent(@PathVariable int id, @RequestBody Student student){
         return repository.update(id, student);
     }
 }

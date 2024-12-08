@@ -10,15 +10,15 @@ import java.util.Objects;
 @Component
 public class StudentRepository {
     private final List<Student> studentList;
-    private static long idCounter = 1L;
+    private static int idCounter = 1;
 
     public StudentRepository() {
         this.studentList = new ArrayList<>();
-        studentList.add(new Student("Vika"));
-        studentList.add(new Student("User #2"));
-        studentList.add(new Student("User #3"));
-        studentList.add(new Student("User #4"));
-        studentList.add(new Student("User #5"));
+        studentList.add(new Student("Vika", "12345"));
+        studentList.add(new Student("User #2", "12345"));
+        studentList.add(new Student("User #3", "12345"));
+        studentList.add(new Student("User #4", "79345"));
+        studentList.add(new Student("User #5", "79345"));
     }
 
     public void add(String firstName, String groupName){
@@ -37,13 +37,13 @@ public class StudentRepository {
 //                Objects.equals(name, studentList.getFirst().getFirstName());
     }
 
-    public Student getById (long id){
+    public Student getById (int id){
         return studentList.stream()
                 .filter(n -> Objects.equals(n.getId(), id))
                 .findFirst().orElse(null);
     }
 
-    public Student deleteById (long id){
+    public Student deleteById (int id){
         return studentList.stream()
                 .filter(n -> Objects.equals(n.getId(), id))
                 .findFirst()
@@ -51,7 +51,7 @@ public class StudentRepository {
                 .orElse(null);
     }
 
-    public Student update(long id, Student updatedStudent) {
+    public Student update(int id, Student updatedStudent) {
         return studentList.stream()
                 .filter(student -> Objects.equals(student.getId(), id))
                 .findFirst()

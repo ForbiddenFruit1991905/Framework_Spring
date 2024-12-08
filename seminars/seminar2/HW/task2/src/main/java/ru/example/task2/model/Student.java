@@ -5,22 +5,23 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 
 @Data
 public class Student {
-    private static long idCounter = 1L;
+    private static int idCounter = 1;
 
-    private long id;
+    private int id;
     private String firstName;
     private String groupName;
 
     @JsonCreator
-    public Student(long id, String firstName, String groupName) {
+    public Student(int id, String firstName, String groupName) {
         this.id = id;
         this.firstName = firstName;
         this.groupName = groupName;
     }
 
-    public Student(String firstName) {
+    public Student(String firstName, String groupName) {
         this.id = idCounter++;
         this.firstName = firstName;
+        this.groupName = groupName;
     }
 
     public void setFirstName(String firstName) {
@@ -31,11 +32,11 @@ public class Student {
         this.groupName = groupName;
     }
 
-    public static long getIdCounter() {
+    public static int getIdCounter() {
         return idCounter;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
@@ -49,7 +50,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "\n" +"Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", groupName='" + groupName + '\'' +

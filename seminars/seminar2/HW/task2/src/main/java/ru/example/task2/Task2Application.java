@@ -23,19 +23,18 @@ public class Task2Application {
 	 * 4. При старте приложения, в программе должно быть создано 5-10 студентов.
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(Task2Application.class, args);
-
-		// Инициализируем контекст Spring
-		ApplicationContext context = new AnnotationConfigApplicationContext(AppConf.class);
+//		SpringApplication.run(Task2Application.class, args);
+		ApplicationContext context = SpringApplication.run(Task2Application.class, args);
 
 		// Получаем экземпляр StudentController из контекста
 		StudentController studentController = context.getBean(StudentController.class);
 
 		// Вызываем методы контроллера для проверки их функциональности
-		studentController.getAllStudents();
-		studentController.getStudentById(Long.valueOf(2));
-		studentController.createStudent(new Student("Ван Дун'Эр"));
-		studentController.updateStudent(1, new Student("Хо Юхао"));
-		studentController.deleteStudent(Long.valueOf(1));
+		System.out.println(studentController.getAllStudents());
+		System.out.println(studentController.getStudentById(2));
+		System.out.println(studentController.createStudent(new Student("Ван Дун'Эр", "12345")));
+		System.out.println(studentController.updateStudent(1, new Student("Хо Юхао", "12345")));
+		System.out.println(studentController.deleteStudent(1));
+		System.out.println(studentController.getAllStudents());
 	}
 }
