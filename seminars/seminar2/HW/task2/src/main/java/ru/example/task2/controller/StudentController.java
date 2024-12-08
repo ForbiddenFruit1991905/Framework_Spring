@@ -23,7 +23,7 @@ public class StudentController {
         this.repository = repository;
     }
 
-    @GetMapping("/student/{id}")
+    @GetMapping("/{id}")
     public Student getStudentById(@PathVariable int id) {
         return repository.getById(id);
     }

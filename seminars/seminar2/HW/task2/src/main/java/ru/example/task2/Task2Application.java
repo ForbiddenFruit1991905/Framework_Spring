@@ -32,9 +32,9 @@ public class Task2Application {
 		// Вызываем методы контроллера для проверки их функциональности
 		System.out.println(studentController.getAllStudents());
 		System.out.println(studentController.getStudentById(2));
-		System.out.println(studentController.createStudent(new Student("Ван Дун'Эр", "12345")));
-		System.out.println(studentController.updateStudent(3, new Student("Хо Юхао", "12345")));
-		System.out.println(studentController.deleteStudent(1));
-		System.out.println(studentController.getAllStudents());
+//		System.out.println(studentController.createStudent(new Student("Ван Дун'Эр", "12345")));
+//		System.out.println(studentController.updateStudent(3, new Student("Хо Юхао", "12345")));
+//		System.out.println(studentController.deleteStudent(1));
+//		System.out.println(studentController.getAllStudents());
 	}
 }
