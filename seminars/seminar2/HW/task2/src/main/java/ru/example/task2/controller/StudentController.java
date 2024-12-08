@@ -28,23 +28,23 @@ public class StudentController {
         return repository.getById(id);
     }
 
-    @GetMapping("/student")
+    @GetMapping/*("/student")*/
     public List<Student> getAllStudents() {
         return repository.getAll();
     }
 
-    @GetMapping("/student/search")
+    @GetMapping("/search")
     public Student searchStudentsByName(@RequestParam String name) {
         return repository.getByName(name);
     }
 
-    @PostMapping("/student") // вызываться только при отправке POST запроса на соответствующий URL
+    @PostMapping/*("/student")*/ // вызываться только при отправке POST запроса на соответствующий URL
     public ResponseEntity<Void> createStudent(@RequestBody Student student) {
         repository.add(student.getFirstName(), student.getGroupName());
         return ResponseEntity.status(HttpStatus.CREATED).build(); // объект `ResponseEntity` с HTTP статусом `201 Created`
     }
 
-    @DeleteMapping("/student/{id}")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteStudent(@PathVariable int id) {
         if (repository.deleteById(id) == repository.getById(id)) {
             repository.deleteById(id);
@@ -54,7 +54,7 @@ public class StudentController {
         }
     }
 
-    @PatchMapping("/{id}")
+    @PutMapping("/{id}")
     public Student updateStudent(@PathVariable int id, @RequestBody Student student){
         return repository.update(id, student);
     }
