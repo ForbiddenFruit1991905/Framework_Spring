@@ -30,8 +30,8 @@ public class Task3Application {
 //		taskController.sortUserByAge();
 		System.out.println("Sorted users by age: " + taskController.sortUserByAge());
 
-		// 3. Фильтровать пользователей по возрасту (например, возраст > 30)
-		System.out.println("Users filtered by age: " + taskController.filterUsersByAge(30));
+		// 3. Фильтровать пользователей по возрасту (например, возраст > 33)
+		System.out.println("Users filtered by age: " + taskController.filterUsersByAge(33));
 
 		// 4. Рассчитать средний возраст пользователей
 		System.out.println("Average age of users: " + taskController.calculateAvgAge());

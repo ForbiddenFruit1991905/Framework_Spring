@@ -20,9 +20,9 @@ public class TaskController {
     @GetMapping
     public List<String> getAllTasks(){
         List<String> tasks = new ArrayList<>();
-        tasks.add("sort");
-        tasks.add("filter");
-        tasks.add("calc");
+        tasks.add("/tasks/sort");
+        tasks.add("/tasks/filter");
+        tasks.add("/tasks/calc");
         return tasks;
     }
     

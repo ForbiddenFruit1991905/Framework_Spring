@@ -9,15 +9,19 @@ import java.util.List;
 @Component
 public class UserRepository {
 
-    private List<User> users = new ArrayList<>();
+    private List<User> users;
+
+    public UserRepository() {
+        users = new ArrayList<>();
+    }
 
     public List<User> getUsers() {
         return users;
     }
 
-    public void setUsers(List<User> users) {
-        this.users = users;
-    }
+//    public void setUsers(List<User> users) {
+//        this.users = users;
+//    }
 
     
 }
