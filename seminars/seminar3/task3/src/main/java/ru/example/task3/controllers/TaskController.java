@@ -2,6 +2,7 @@ package ru.example.task3.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.example.task3.domain.User;
@@ -20,9 +21,9 @@ public class TaskController {
     @GetMapping
     public List<String> getAllTasks(){
         List<String> tasks = new ArrayList<>();
-        tasks.add("/tasks/sort");
-        tasks.add("/tasks/filter");
-        tasks.add("/tasks/calc");
+        tasks.add("sort");
+        tasks.add("filter");
+        tasks.add("calc");
         return tasks;
     }
     
@@ -32,18 +33,13 @@ public class TaskController {
     }
 
     @GetMapping("/filter/{age}")
-    public List<User> filterUsersByAge(int age){
+    public List<User> filterUsersByAge(@PathVariable("age") int age){
         return service.filterUsersByAge(service.getUserRepository().getUsers(), age);
     }
 
     @GetMapping("/calc")
     public double calculateAvgAge(){
         return service.calculateAverageAge(service.getUserRepository().getUsers());
-    }
-
-    @GetMapping("/addNewUser")
-    public void addUserToList(User user){
-        service.addUserToList(user);
     }
 
 }

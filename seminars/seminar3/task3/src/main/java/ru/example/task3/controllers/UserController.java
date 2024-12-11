@@ -26,8 +26,19 @@ public class UserController {
     }
 
     @GetMapping("/registration")
-    public User processRegistration(String name, int age, String email){
-        service.processRegistration(name, age, email);
-        return null;
+    public User processRegistration(String name, Integer age, String email){
+//        return service.processRegistration(name, age, email);
+        List<User> existingUsers = service.getDataProcessingService().getUserRepository().getUsers();
+        for (User user : existingUsers) {
+            if (user.getEmail().equals(email)) {
+                System.out.println("User with email " + email + " already exists.");
+                return user;
+            }
+        }
+
+        User newUser = service.processRegistration(name, age, email);
+        userAddFromBody(newUser);
+        return newUser;
     }
+
 }

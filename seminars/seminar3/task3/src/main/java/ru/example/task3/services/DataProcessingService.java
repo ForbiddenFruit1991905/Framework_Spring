@@ -41,6 +41,4 @@ public class DataProcessingService {
     public void addUserToList(User user){
         userRepository.getUsers().add(user);
     }
-
-
 }

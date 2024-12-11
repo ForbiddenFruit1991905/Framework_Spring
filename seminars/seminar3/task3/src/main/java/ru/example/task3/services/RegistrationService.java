@@ -20,10 +20,19 @@ public class RegistrationService {
         return dataProcessingService;
     }
 
-    public void processRegistration(String name, int age, String email) {
+    public User processRegistration(String name, int age, String email) {
+        User createUser = userService.createUser(name, age, email);
+        dataProcessingService.addUserToList(createUser);
+        notificationService.sendNotification("Регистрация выполнена");
+        return createUser;
+    }
+}
+
+/*
+public void processRegistration(String name, int age, String email) {
         User createUser = userService.createUser(name, age, email);
         dataProcessingService.addUserToList(createUser);
 //        userService.createUser(user.getName(), user.getAge(), user.getEmail());
         notificationService.sendNotification("Регистрация выполнена");
     }
-}
+ */

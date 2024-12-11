@@ -27,7 +27,6 @@ public class Task3Application {
 		System.out.println("All tasks: " + taskController.getAllTasks());
 
 		// 2. Сортировать пользователей по возрасту
-//		taskController.sortUserByAge();
 		System.out.println("Sorted users by age: " + taskController.sortUserByAge());
 
 		// 3. Фильтровать пользователей по возрасту (например, возраст > 33)

@@ -6,14 +6,8 @@ import ru.example.task3.domain.User;
 
 @Service
 public class UserService {
-
-//    @Autowired
+    @Autowired
     private NotificationService notificationService;
-
-    // Внедрение зависимости через конструктор
-    public UserService(NotificationService notificationService) {
-        this.notificationService = notificationService;
-    }
 
     public User createUser(String name, int age, String email) {
         User user = new User();
@@ -26,5 +20,4 @@ public class UserService {
         
         return user;
     }
-
 }
