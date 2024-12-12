@@ -26,7 +26,7 @@ public class UserController {
     }
 
     @GetMapping("/registration")
-    public User processRegistration(String name, Integer age, String email){
+    public User processRegistration(String name,Integer age, String email){
 //        return service.processRegistration(name, age, email);
         List<User> existingUsers = service.getDataProcessingService().getUserRepository().getUsers();
         for (User user : existingUsers) {

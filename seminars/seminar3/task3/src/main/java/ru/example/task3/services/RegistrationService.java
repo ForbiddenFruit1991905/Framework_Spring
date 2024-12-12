@@ -26,6 +26,7 @@ public class RegistrationService {
         notificationService.sendNotification("Регистрация выполнена");
         return createUser;
     }
+
 }
 
 /*

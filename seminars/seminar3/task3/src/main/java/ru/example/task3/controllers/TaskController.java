@@ -34,12 +34,16 @@ public class TaskController {
 
     @GetMapping("/filter/{age}")
     public List<User> filterUsersByAge(@PathVariable("age") int age){
-        return service.filterUsersByAge(service.getUserRepository().getUsers(), age);
+        List<User> users = service.getUserRepository().getUsers();
+        return service.filterUsersByAge(users, age);
+//        return service.filterUsersByAge(service.getUserRepository().getUsers(), age);
     }
 
     @GetMapping("/calc")
     public double calculateAvgAge(){
-        return service.calculateAverageAge(service.getUserRepository().getUsers());
+        List<User> users = service.getUserRepository().getUsers();
+        return service.calculateAverageAge(users);
+//        return service.calculateAverageAge(service.getUserRepository().getUsers());
     }
 
 }
