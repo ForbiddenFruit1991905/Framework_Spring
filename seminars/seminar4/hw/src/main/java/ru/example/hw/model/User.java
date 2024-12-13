@@ -1,7 +1,6 @@
 package ru.example.hw.model;
 
 import lombok.Data;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.UUID;

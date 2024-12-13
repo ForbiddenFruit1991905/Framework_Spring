@@ -2,7 +2,6 @@ package ru.example.hw.service;
 
 import org.springframework.stereotype.Service;
 import ru.example.hw.model.User;
-
 import java.util.ArrayList;
 import java.util.List;
 
