@@ -10,16 +10,16 @@
 
 <table>
     <tr>
-<!--        <th>USER_ID</th>-->
+        <th>USER_ID</th>
         <th>USER_NAME</th>
         <th>USER_AGE</th>
         <th>USER_EMAIL</th>
     </tr>
-    <tr th:each="p: ${listOfUsers}" >
-<!--        <td th:text="${p.id}"></td>-->
-        <td th:text="${p.name}"></td>
-        <td th:text="${p.age}"></td>
-        <td th:text="${p.email}"></td>
+    <tr th:each="u: ${users}" >
+        <td th:text="${u.id}"></td>
+        <td th:text="${u.name}"></td>
+        <td th:text="${u.age}"></td>
+        <td th:text="${u.email}"></td>
     </tr>
 </table>
 
