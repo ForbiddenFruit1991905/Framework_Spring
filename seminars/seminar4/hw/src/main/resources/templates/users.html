@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>Users</h1>
+<h2>View list of all users</h2>
+
+<table>
+    <tr>
+<!--        <th>USER_ID</th>-->
+        <th>USER_NAME</th>
+        <th>USER_AGE</th>
+        <th>USER_EMAIL</th>
+    </tr>
+    <tr th:each="p: ${listOfUsers}" >
+<!--        <td th:text="${p.id}"></td>-->
+        <td th:text="${p.name}"></td>
+        <td th:text="${p.age}"></td>
+        <td th:text="${p.email}"></td>
+    </tr>
+</table>
+
+<h2>Add a new user</h2>
+<form action="/users" method="post">
+<!--    Id: <input type="number" step="any" name="id"><br />-->
+    Name: <input type="text" name="name"><br />
+    Age: <input type="number" step="any" name="age"><br />
+    Email: <input type="text" name="email"><br />
+    <button type="submit">Add user</button>
+</form>
+</body>
+</html>
