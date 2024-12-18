@@ -19,13 +19,6 @@ public class Person {
     @Column(nullable = true)
     private String email;
 
-    public Person(String name, Integer age, String email) {
-
-        this.name = name;
-        this.age = age;
-        this.email = email;
-    }
-
     public Person() {
     }
 
