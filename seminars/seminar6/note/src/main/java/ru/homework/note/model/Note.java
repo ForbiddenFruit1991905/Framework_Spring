@@ -1,7 +1,6 @@
 package ru.homework.note.model;
 
 import jakarta.persistence.*;
-
 import java.time.LocalDateTime;
 
 @Entity
@@ -15,17 +14,17 @@ public class Note {
     @Column(name = "text", nullable = false)
     private String text;
     @Column(name = "created_date", nullable = false, columnDefinition = "TIMESTAMP")
-    private LocalDateTime created_date;
+    private LocalDateTime createdDate;
 
     public Note() {
     }
 
     public LocalDateTime getCreatedDate() {
-        return created_date;
+        return createdDate;
     }
 
     public void setCreatedDate(LocalDateTime createdDate) {
-        this.created_date = createdDate;
+        this.createdDate = createdDate;
     }
 
     public Long getId() {
@@ -58,7 +57,7 @@ public class Note {
                 "id=" + id +
                 ", header='" + header + '\'' +
                 ", text='" + text + '\'' +
-                ", createdDate=" + created_date +
+                ", createdDate=" + createdDate +
                 '}';
     }
 }

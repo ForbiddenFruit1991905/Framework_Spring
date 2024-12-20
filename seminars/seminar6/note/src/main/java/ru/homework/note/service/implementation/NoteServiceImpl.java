@@ -1,11 +1,9 @@
 package ru.homework.note.service.implementation;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.homework.note.model.Note;
 import ru.homework.note.repository.NoteRepository;
 import ru.homework.note.service.NoteService;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;

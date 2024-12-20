@@ -1,7 +1,6 @@
 package ru.homework.note.service;
 
 import ru.homework.note.model.Note;
-
 import java.util.List;
 
 public interface NoteService {
