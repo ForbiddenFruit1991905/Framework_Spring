@@ -54,13 +54,13 @@ public class LogAspect {
         Object[] methodArgs = joinPoint.getArgs();
 
         // Цвета для логирования
-        String ANSI_RESET = "u001B[0m";
-        String myColorStart = "u001B[43;30m";
-        String myColor1 = "u001B[32m";
-        String myColor2 = "u001B[35m";
-        String myColor3 = "u001B[36m";
-        String myColor4 = "u001B[34m";
-        String myColorEND = "u001B[43;30m";
+        String ANSI_RESET = "u001B[0m";         // Сброс цвета
+        String myColorStart = "u001B[43;30m";  // Желтый фон с черным текстом
+        String myColor1 = "u001B[32m";         // Зеленый
+        String myColor2 = "u001B[35m";         // Фиолетовый
+        String myColor3 = "u001B[36m";         // Циановый
+        String myColor4 = "u001B[34m";         // Синий
+        String myColorEND = "u001B[43;30m";    // Закрытие цветного блока (желтый фон с черным текстом)
 
         // Вывод информации в консоль в виде лога
         logger.info(myColorStart + "Логирование выполнения метода: " + ANSI_RESET);

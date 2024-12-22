@@ -26,3 +26,59 @@ INFO: u001B[34mМетод выполнен и вернул результат: u
 INFO: u001B[43;30mКонец блока логирования. u001B[0m
 дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect log
 INFO: Method executed and returned []
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', createdDate=2024-12-30T11:21:54.405983}]
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', createdDate=2024-12-30T11:21:54.405983}]
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', createdDate=2024-12-30T11:21:54.405983}]
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:57:03 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', createdDate=2024-12-30T11:21:54.405983}]
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}]
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned Note{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}]
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:59:35 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned Note{id=4, header='Пойти на прогулку', text='Выбрать интересную детскую площадку', createdDate=2024-12-22T17:59:35.937069200}
