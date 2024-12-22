@@ -1,0 +1,28 @@
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[]
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned []
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.hw.service.impl.NoteServiceImpl
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[]
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 22, 2024 5:45:35 PM ru.example.hw.aspects.LogAspect log
+INFO: Method executed and returned []
