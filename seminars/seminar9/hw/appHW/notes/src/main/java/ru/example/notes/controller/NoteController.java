@@ -4,6 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.example.notes.model.Note ;
+import ru.example.notes.model.NoteStatus;
 import ru.example.notes.service.NoteService ;
 
 import java.util.List;
@@ -51,5 +52,10 @@ public class NoteController {
     public ResponseEntity<Void> deleteProduct(@PathVariable("id") Long id){
         noteService.deleteNote(id);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/status/{status}")
+    public List<Note> getTasksByStatus(@PathVariable NoteStatus status) {
+        return noteService.getTasksByStatus(status);
     }
 }

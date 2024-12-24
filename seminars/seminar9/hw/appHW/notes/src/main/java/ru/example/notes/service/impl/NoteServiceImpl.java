@@ -3,6 +3,7 @@ package ru.example.notes.service.impl;
 import org.springframework.stereotype.Service;
 import ru.example.notes.aspects.TrackUserAction ;
 import ru.example.notes.model.Note ;
+import ru.example.notes.model.NoteStatus;
 import ru.example.notes.repository.NoteRepository ;
 import ru.example.notes.service.NoteService ;
 import java.time.LocalDateTime;
@@ -38,10 +39,16 @@ public class NoteServiceImpl implements NoteService {
             Note note = optionalNote.get();
             note.setHeader(noteDetails.getHeader());
             note.setText(noteDetails.getText());
+            note.setStatus(noteDetails.getStatus());
             return noteRepository.save(note);
         } else {
             throw  new IllegalArgumentException("Note is not found");
         }
+    }
+
+    @TrackUserAction
+    public List<Note> getTasksByStatus(NoteStatus status) {
+        return noteRepository.findAllByStatus(status);
     }
 
     @Override

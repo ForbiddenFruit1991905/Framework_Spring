@@ -14,10 +14,21 @@ public class Note {
     private String header;
     @Column(name = "text", nullable = false)
     private String text;
+    @Column
+    @Enumerated(EnumType.STRING)
+    private NoteStatus status;
     @Column(name = "created_date", nullable = false, columnDefinition = "TIMESTAMP")
     private LocalDateTime createdDate;
 
     public Note() {
+    }
+
+    public NoteStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(NoteStatus status) {
+        this.status = status;
     }
 
     public LocalDateTime getCreatedDate() {
@@ -58,6 +69,7 @@ public class Note {
                 "id=" + id +
                 ", header='" + header + '\'' +
                 ", text='" + text + '\'' +
+                ", status=" + status +
                 ", createdDate=" + createdDate +
                 '}';
     }
