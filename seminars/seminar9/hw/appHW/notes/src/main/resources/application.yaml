@@ -1,0 +1,26 @@
+#spring.application.name=notes
+#spring.main.allow-bean-definition-overriding=true
+#spring.jpa.generate-ddl=false
+#spring.jpa.hibernate.ddl-auto=none
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: notes
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+
+
