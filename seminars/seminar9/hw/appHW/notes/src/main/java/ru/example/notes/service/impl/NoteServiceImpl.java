@@ -2,7 +2,7 @@ package ru.example.notes.service.impl;
 
 import org.springframework.stereotype.Service;
 import ru.example.notes.aspects.TrackUserAction ;
-import ru.example.hw.model.Note;
+import ru.example.notes.model.Note ;
 import ru.example.notes.repository.NoteRepository ;
 import ru.example.notes.service.NoteService ;
 import java.time.LocalDateTime;
