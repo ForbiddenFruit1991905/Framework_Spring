@@ -1,5 +1,8 @@
 package ru.example.notes.config;
 
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
+import io.micrometer.core.instrument.Timer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.integration.annotation.ServiceActivator;
@@ -15,6 +18,35 @@ import java.io.File;
 @Configuration
 public class IntegrationConfig {
 
+    private MeterRegistry meterRegistry;
+
+    public IntegrationConfig(MeterRegistry meterRegistry) {
+        this.meterRegistry = meterRegistry;
+    }
+
+    /**
+     * Счётчик заметок
+     * @param meterRegistry
+     * @return
+     */
+    @Bean
+    public Counter counter(MeterRegistry meterRegistry){
+        return Counter.builder("note_counter")
+                .description("Counter of notes in the repository")
+                .register(meterRegistry);
+    }
+
+    /**
+     * Таймер для замера пользовательских запросов к сайту
+     * @param meterRegistry
+     * @return
+     */
+    @Bean
+    public Timer timer(MeterRegistry meterRegistry){
+        return Timer.builder("user_process_timer")
+                .description("Timer for processing user requests")
+                .register(meterRegistry);
+    }
 
     @Bean
     public MessageChannel textInputChanel() {
