@@ -30,8 +30,9 @@ public class IntegrationConfig {
     @Transformer(inputChannel = "textInputChanel", outputChannel = "fileWriterChanel")
     public GenericTransformer<String, String> mainTransformer() {
         return text -> {
-            //какая-то логика
-            return text;
+            String cleanedText = text.replaceAll("[{}]", "") // Убираем фигурные скобки
+                    .replaceFirst("Note", ""); // Убираем первое слово "Note"
+            return cleanedText;
         };
     }
 

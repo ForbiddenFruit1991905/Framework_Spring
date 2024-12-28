@@ -31,7 +31,8 @@ public class NoteController {
     @PostMapping
     public ResponseEntity<Note> createNote(@RequestBody Note note){
         note.setCreatedDate(LocalDateTime.now());
-        fileGateway.writeToFile(note.getHeader() + ".txt", note.toString());
+        Note createdNote = noteService.createNote(note);
+        fileGateway.writeToFile(createdNote.getHeader() + ".txt", note.toString());
         return new ResponseEntity<>(noteService.createNote(note), HttpStatus.CREATED);
     }
 
