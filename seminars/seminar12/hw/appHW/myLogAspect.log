@@ -1,0 +1,56 @@
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}]
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}]
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 3:26:37 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=4, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=null, createdDate=2024-12-28T15:26:37.457185900}
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}]
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mcreateNote
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[Note{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}]
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 3:27:43 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=5, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.387063800}

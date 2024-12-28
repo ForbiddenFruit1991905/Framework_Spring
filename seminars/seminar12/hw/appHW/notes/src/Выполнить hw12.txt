@@ -1,0 +1,1 @@
+Note{id=null, header='Выполнить hw12', text='Добавить класс IntegrationConfig и интерфейс FileGateway', status=COMPLETED, createdDate=2024-12-28T15:27:43.379062500}
