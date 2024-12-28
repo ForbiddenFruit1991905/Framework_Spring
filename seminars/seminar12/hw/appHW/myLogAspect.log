@@ -222,3 +222,535 @@ INFO: u001B[34mМетод выполнен и вернул результат: u
 INFO: u001B[43;30mКонец блока логирования. u001B[0m
 дек. 28, 2024 11:35:14 PM ru.example.notes.aspects.LogAspect log
 INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:56:13 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:11 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:13 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:28 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 28, 2024 11:58:29 PM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetNoteById
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[1]
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetNoteById
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[1]
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:02:23 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetNoteById
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[1]
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetNoteById
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[1]
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0mNote{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:36:38 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:36:42 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:46:36 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:48:48 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:50:41 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:57:08 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 12:57:09 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:39:56 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:40:00 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:51 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mЛогирование выполнения метода: u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[32mВызванный метод: u001B[0mgetAllNotes
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[35mКласс: u001B[0mclass ru.example.notes.service.impl.NoteServiceImpl
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[36mАргументы: u001B[0m[]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[34mМетод выполнен и вернул результат: u001B[0m[Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect logMethodExecution
+INFO: u001B[43;30mКонец блока логирования. u001B[0m
+дек. 29, 2024 1:46:54 AM ru.example.notes.aspects.LogAspect log
+INFO: Method executed and returned [Note{id=1, header='Заказать продукты на Новый Год', text='Икра, багет, все для салатов', status=COMPLETED, createdDate=2024-12-20T11:21:54.405983}, Note{id=2, header='Выполнить все практические задания', text='Фреймворк Spring', status=IN_PROGRESS, createdDate=2024-12-19T11:21:54.405983}, Note{id=3, header='Выбрать новогодние подарки', text='Заказать торт, праздничная одежда для близких', status=NOT_STARTED, createdDate=2024-12-30T11:21:54.405983}]

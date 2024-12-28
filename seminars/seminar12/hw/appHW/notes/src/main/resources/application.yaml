@@ -31,5 +31,21 @@ management:
   endpoint:
     health:
       show-details: always
+#      status:
+#        http-mapping:
+#          up: 207
+#        prometheus:
+#          enabled: true
+#        endpoints:
+#          web:
+#            exposure:
+#              include: '*'
+#        metrics:
+#          export:
+#            prometheus:
+#              enabled: true
+#        info:
+#          env:
+#            enabled: true
 
 

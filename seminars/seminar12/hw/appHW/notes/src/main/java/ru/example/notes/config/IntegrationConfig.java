@@ -36,17 +36,17 @@ public class IntegrationConfig {
                 .register(meterRegistry);
     }
 
-    /**
-     * Таймер для замера пользовательских запросов к сайту
-     * @param meterRegistry
-     * @return
-     */
-    @Bean
-    public Timer timer(MeterRegistry meterRegistry){
-        return Timer.builder("user_process_timer")
-                .description("Timer for processing user requests")
-                .register(meterRegistry);
-    }
+//    /**
+//     * Таймер для замера пользовательских запросов к сайту
+//     * @param meterRegistry
+//     * @return
+//     */
+//    @Bean
+//    public Timer timer(MeterRegistry meterRegistry){
+//        return Timer.builder("user_process_timer")
+//                .description("Timer for processing user requests")
+//                .register(meterRegistry);
+//    }
 
     @Bean
     public MessageChannel textInputChanel() {

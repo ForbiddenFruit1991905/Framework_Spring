@@ -1,5 +1,6 @@
 package ru.example.notes.controller;
 
+import io.micrometer.core.instrument.Counter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,10 +18,12 @@ public class NoteController {
 
     private final NoteService noteService;
     private final FileGateway fileGateway;
+    private final Counter counter;
 
-    public NoteController(NoteService noteService, FileGateway fileGateway) {
+    public NoteController(NoteService noteService, FileGateway fileGateway, Counter counter) {
         this.noteService = noteService;
         this.fileGateway = fileGateway;
+        this.counter = counter;
     }
 
     @GetMapping
@@ -32,6 +35,7 @@ public class NoteController {
     public ResponseEntity<Note> createNote(@RequestBody Note note){
         note.setCreatedDate(LocalDateTime.now());
         Note createdNote = noteService.createNote(note);
+        counter.increment();
         fileGateway.writeToFile(createdNote.getHeader() + ".txt", note.toString());
         return new ResponseEntity<>(noteService.createNote(note), HttpStatus.CREATED);
     }
